@@ -46,7 +46,7 @@ img {
 }
 
 .hero {
-    background-image: url(/images/unicorn.png);
+    background-image: url(/images/unicorn.jpg);
     background-size: contain ;
     background-repeat: no-repeat;
     flex-grow: 1;
@@ -96,7 +96,7 @@ img {
     width: 480px;
     height: 835px;
     background-color: rgba(224, 56, 236, 0.87);
-    background-image: url(/images/panda.jpeg);
+    background-image: url(/images/panda.jpg);
     transition: opacity 500ms, visibility 500ms;
     
 }
