@@ -1,0 +1,154 @@
+body {
+    font-family: "Shadows Into Light", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+
+
+.container {
+    /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; */
+    max-width: 100%;
+    width: 480px;
+}
+
+.hero {
+    background-image: url(/images/1518105865_youloveit_ru_oboi_na_telefon_edinorogi14.png);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    height: 853px;
+    margin: 0 auto;
+}
+
+.title {
+    color: #fff;
+    /* line-height: 2.0; */
+    /* font-weight: 400; */
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.btn {
+        font-family:  sans-serif;
+        line-height: 1.33;
+        letter-spacing: 0.09em;
+        text-transform: uppercases;
+        color: #fff;
+        /* margin-left: 40px; */
+        border: 2px solid #fff;
+        border-radius: 25px;
+        background-color: transparent;
+        min-width: 160px;
+        min-height: 40px;
+        position: absolute;
+            /* bottom: 25px; */
+            right: 150px;
+            left: 150px;
+            bottom: -60px;
+            text-align: center;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgb(91, 180, 191); 
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    z-index: 7;
+    width: 480px;
+    height: 835px;
+    background-color: rgba(224, 56, 236, 0.87);
+    background-image: url(/images/panda.jpeg);
+    transition: opacity 500ms, visibility 500ms;
+    
+}
+
+.modal-button-close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--accent-color);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+
+.backdrop.is-hidden.modal {
+    transform: scale(0.5);
+}
+
+.modal-button-close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--accent-color);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+
+/* -----------script----------- */
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+
+.h2 {
+    padding-top: 35px;
+    font-family: sans-serif;
+        line-height: 1.33;
+        letter-spacing: 0.09em;
+        color: #fff;
+        font-size: 40px;
+            text-align: center;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Holiday</title>
+</head>
+<body>
+    <div class="hero container">
+        <h1 class="title">Happy Birthday </h1>
+        <button class="btn" type="button" data-modal-open >жмакать тут!!!</button>
+    </div>
+        <!-- модалка -->
+        
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal-button-close" data-modal-close>
+                    <svg class="modal-svg-close" width="10" height="10">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <h2 class="h2" >Кохана вітаю тебе з Днем народження,
+                ти вже зовсім доросла, але для мене завжди будеш малявкою!!!</h2>
+            </div>
+        </div>
+        
+        <script src="./js/modal.js" type="module"></script>
+</body>
+</html>
