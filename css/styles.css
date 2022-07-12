@@ -43,15 +43,18 @@ img {
         justify-content: space-around; */
     max-width: 100%;
     width: 480px;
+    height: 853px;
+    margin: 0 auto;
+    border: 2px solid rgb(91, 180, 191);
 }
 
 .hero {
+    background-color: rgb(91, 180, 191);
     background-image: url(/images/unicorn.jpg);
     background-size: contain ;
     background-repeat: no-repeat;
     flex-grow: 1;
-    height: 853px;
-    margin: 0 auto;
+    
 }
 
 .title {
@@ -75,12 +78,8 @@ img {
         background-color: transparent;
         min-width: 160px;
         min-height: 40px;
-        position: absolute;
-            /* bottom: 25px; */
-            right: 150px;
-            left: 150px;
-            bottom: -60px;
-            text-align: center;
+        margin-top: 548px;
+        margin-left: 157px;
 }
 
 .btn:hover,
