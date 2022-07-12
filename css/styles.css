@@ -37,10 +37,10 @@ img {
 
 
 .container {
-    /* display: flex;
+    display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around; */
+        /* justify-content: space-around; */
     max-width: 100%;
     width: 480px;
     height: 853px;
@@ -50,7 +50,7 @@ img {
 
 .hero {
     background-color: rgb(91, 180, 191);
-    background-image: url(./images/unicorn.jpg);
+    background-image: url(../images/unicorn.jpg);
     background-size: contain ;
     background-repeat: no-repeat;
     flex-grow: 1;
@@ -79,7 +79,7 @@ img {
         min-width: 160px;
         min-height: 40px;
         margin-top: 600px;
-        margin-left: 157px;
+        /* margin-left: 157px; */
 }
 
 .btn:hover,
@@ -95,7 +95,7 @@ img {
     width: 480px;
     height: 835px;
     background-color: rgba(224, 56, 236, 0.87);
-    background-image: url(./images/panda.jpg);
+    background-image: url(../images/panda.jpg);
     transition: opacity 500ms, visibility 500ms;
     
 }
